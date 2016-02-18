@@ -2,9 +2,9 @@
 
 :- use_module(library(aggregates), [findall/3]).
 :- use_module(library(terms),[copy_args/3]).
-:- use_module(library('rfuzzy/rfuzzy_rt')).
-:- include(library('clpqr-common/ops')).
-:- include(library('rfuzzy/rfuzzy_ops')).
+:- use_module(library(rfuzzy/rfuzzy_rt)).
+:- include(library(clpqr/clpqr_ops)).
+:- include(library(rfuzzy/rfuzzy_ops)).
 
 % Important info to be saved.
 :- data predicate_definition/5.
