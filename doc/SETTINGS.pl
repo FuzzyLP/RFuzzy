@@ -4,9 +4,8 @@
 
 bibfile := ~fsR(bundle_src('RFuzzy')/doc/'bibliography.bib').
 
-filepath := ~fsR(bundle_src('RFuzzy')/doc).
-filepath := ~fsR(bundle_src('RFuzzy')/lib).
-filepath := ~fsR(bundle_src('RFuzzy')). % (for examples/)
+filepath := '../lib'.
+filepath := '..'. % (for examples/)
 
 output_name := 'RFuzzy'.
 
