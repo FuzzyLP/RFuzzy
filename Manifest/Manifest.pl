@@ -1,9 +1,9 @@
-% Manifest file for RFuzzy
-bundle_name('RFuzzy').
-bundle_packname('RFuzzy').
-bundle_requires([core]).
-bundle_alias_paths([
+:- bundle('RFuzzy').
+version('1.0').
+depends([core]).
+alias_paths([
     library = 'lib'
 ]).
-
+lib('lib').
+manual('RFuzzy', [main='doc/SETTINGS.pl']).
 
